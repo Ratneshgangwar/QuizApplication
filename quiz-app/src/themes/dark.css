@@ -1,0 +1,80 @@
+.dark-theme {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.dark-theme .home-content,
+.dark-theme .quiz-header,
+.dark-theme .progress-container,
+.dark-theme .question-container,
+.dark-theme .result-card,
+.dark-theme .leaderboard-card {
+  background: rgba(30, 30, 46, 0.95);
+  color: #fff;
+}
+
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme p {
+  color: #fff;
+}
+
+.dark-theme .form-group label {
+  color: #ccc;
+}
+
+.dark-theme input,
+.dark-theme select {
+  background: #2d2d44;
+  color: #fff;
+  border-color: #4a4a6a;
+}
+
+.dark-theme .option-btn {
+  background: #2d2d44;
+  color: #fff;
+  border-color: #4a4a6a;
+}
+
+.dark-theme .option-btn:hover:not(:disabled) {
+  background: #3d3d5a;
+  border-color: #667eea;
+}
+
+.dark-theme .player-name,
+.dark-theme .player-score,
+.dark-theme .quiz-info span {
+  color: #fff;
+}
+
+.dark-theme .leaderboard-table {
+  background: #2d2d44;
+}
+
+.dark-theme .leaderboard-table th {
+  background: linear-gradient(135deg, #4a4a6a 0%, #5a5a7a 100%);
+}
+
+.dark-theme .leaderboard-table td {
+  color: #fff;
+  border-bottom-color: #4a4a6a;
+}
+
+.dark-theme .score-badge {
+  background: linear-gradient(135deg, #4a4a6a 0%, #5a5a7a 100%);
+}
+
+.dark-theme .navbar {
+  background: rgba(30, 30, 46, 0.95);
+}
+
+.dark-theme .nav-logo,
+.dark-theme .nav-link {
+  color: #fff;
+}
+
+.dark-theme .loading-state,
+.dark-theme .error-state {
+  background: rgba(30, 30, 46, 0.95);
+  color: #fff;
+}
