@@ -1,16 +1,40 @@
-# React + Vite
+# QuizMaster 🎯
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive quiz application built with React and Firebase. Test your knowledge across multiple categories and compete with others on the global leaderboard!
 
-Currently, two official plugins are available:
+![QuizMaster Demo](link-to-your-screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🔐 **User Authentication** - Sign up with email/password or Google
+- 📊 **Multiple Categories** - Science, History, GK, Computers, Geography, Sports
+- ⏱️ **Timed Questions** - 15 seconds per question
+- 🏆 **Live Leaderboard** - Compete with other players
+- 🌓 **Dark/Light Theme** - Toggle between themes
+- 📈 **User Profiles** - Track your statistics and progress
+- 🎨 **Responsive Design** - Works on all devices
+- 🔄 **Real-time Updates** - Leaderboard updates instantly
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React.js, React Router, Context API
+- **Backend:** Firebase (Authentication & Firestore)
+- **API:** Open Trivia Database
+- **Styling:** CSS with modern animations
+- **Deployment:** [Your deployment platform]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📋 Prerequisites
+
+Before you begin, ensure you have installed:
+
+- Node.js (v14 or higher)
+- npm or yarn
+- Firebase account
+
+## 🚀 Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/quizmaster.git
+   cd quizmaster
+   ```
